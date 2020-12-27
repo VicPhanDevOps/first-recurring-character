@@ -3,7 +3,7 @@
 # return first recurring character in string 
 
 # define string
-foo = 'abcdedcba'
+foo = str(input("Input random characters: "))
 
 # create empty hash table 
 h = {}
@@ -18,4 +18,4 @@ def firstRecur(str):
     return '\0'
 
 # call function 
-print(firstRecur(foo))
+print("The first recurring character is: ", firstRecur(foo))
