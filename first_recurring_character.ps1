@@ -3,7 +3,7 @@
 # return first recurring character in string 
 
 # define string
-$foo = 'abcdedcba'
+$foo = Read-Host -Prompt "Input random characters"
 
 # create empty hash table and array
 $hash = @{}
